@@ -1221,20 +1221,20 @@ section:nth-of-type(2) { animation-delay: 0.6s; }
     
     /* Навигация */
     .nav {
-        padding: 1rem 5%;
+        padding: 1.5rem 4%;
     }
     
     .nav-logo {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     
     .nav-links {
-        gap: 0.8rem;
+        gap: 1.5rem;
     }
     
     .nav-link {
-        font-size: 0.75rem;
-        letter-spacing: 1px;
+        font-size: 0.85rem;
+        letter-spacing: 1.5px;
     }
     
     /* Герой */
@@ -1287,16 +1287,16 @@ section:nth-of-type(2) { animation-delay: 0.6s; }
     }
     
     .stats {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
     
     .stat-item {
-        padding: 1.5rem 1rem;
+        padding: 2rem 1.5rem;
     }
     
     .stat-value {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     
     .hexagon-container {
@@ -1310,24 +1310,25 @@ section:nth-of-type(2) { animation-delay: 0.6s; }
     }
     
     .philosophy-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1.5rem;
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
     
     .philosophy-card {
-        padding: 2rem 1.2rem;
+        padding: 2.5rem 2rem;
     }
     
     .philosophy-icon {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     
     .philosophy-card h3 {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
     
     .philosophy-card p {
-        font-size: 0.9rem;
+        font-size: 1rem;
+        line-height: 1.7;
     }
     
     .stoic-quote {
@@ -1422,21 +1423,23 @@ section:nth-of-type(2) { animation-delay: 0.6s; }
     
     /* Контакты */
     .contact-text {
-        font-size: 1.1rem;
+        font-size: 1.15rem;
+        padding: 0 1rem;
     }
     
     .contact-btn {
-        padding: 1rem 2.5rem;
+        padding: 1.2rem 2.8rem;
         font-size: 1rem;
     }
     
     .social-links {
-        gap: 1.5rem;
+        gap: 2rem;
+        flex-wrap: wrap;
     }
     
     .social-link {
-        width: 45px;
-        height: 45px;
+        width: 50px;
+        height: 50px;
     }
     
     /* Частицы */
@@ -1448,7 +1451,7 @@ section:nth-of-type(2) { animation-delay: 0.6s; }
 @media (max-width: 480px) {
     /* Навигация */
     .nav {
-        padding: 1rem 4%;
+        padding: 1.2rem 3%;
         flex-wrap: wrap;
         justify-content: center;
         gap: 1rem;
@@ -1457,17 +1460,19 @@ section:nth-of-type(2) { animation-delay: 0.6s; }
     .nav-logo {
         width: 100%;
         text-align: center;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.8rem;
+        font-size: 1.4rem;
     }
     
     .nav-links {
         width: 100%;
-        justify-content: center;
-        gap: 1rem;
+        justify-content: space-around;
+        gap: 0.5rem;
     }
     
     .nav-link {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
+        padding: 0.5rem;
     }
     
     /* Герой */
@@ -1518,7 +1523,7 @@ section:nth-of-type(2) { animation-delay: 0.6s; }
     }
     
     .stoic-quote {
-        padding: 1.5rem 1rem;
+        padding: 2rem 1.5rem;
     }
     
     .stoic-quote::before {
@@ -1528,11 +1533,12 @@ section:nth-of-type(2) { animation-delay: 0.6s; }
     }
     
     .stoic-quote p {
-        font-size: 1rem;
+        font-size: 1.15rem;
+        line-height: 1.7;
     }
     
     .stoic-quote cite {
-        font-size: 0.9rem;
+        font-size: 0.95rem;
     }
     
     /* Проекты */
@@ -1607,13 +1613,14 @@ section:nth-of-type(2) { animation-delay: 0.6s; }
     
     /* Контакты */
     .contact-text {
-        font-size: 1rem;
+        font-size: 1.1rem;
+        line-height: 1.7;
     }
     
     .contact-btn {
-        padding: 0.9rem 2rem;
-        font-size: 0.9rem;
-        letter-spacing: 1px;
+        padding: 1.1rem 2.5rem;
+        font-size: 0.95rem;
+        letter-spacing: 1.5px;
     }
     
     .social-links {
